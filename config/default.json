@@ -1,0 +1,10 @@
+{
+  "jwtPrivateKey": "12345",
+  "db": "mongodb://localhost/electronic-invoicing",
+
+  "cloud_name": "fredel",
+  "api_keys": "774861982883718",
+  "api_secret": "b_g_CRndNg4fjhsjwG3KasCigho",
+  "secure": true
+
+}
