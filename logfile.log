@@ -1,3 +1,8 @@
-{"level":"error","message":"customer is not defined customer is not defined","stack":"ReferenceError: customer is not defined\n    at C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\routes\\product.js:66:19\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
-{"level":"error","message":"customer is not defined customer is not defined","stack":"ReferenceError: customer is not defined\n    at C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\routes\\product.js:66:19\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
-{"code":"ENOENT","errno":-4058,"expose":false,"level":"error","message":"ENOENT: no such file or directory, stat 'C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\invoice.pdf' ENOENT: no such file or directory, stat 'C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\invoice.pdf'","path":"C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\invoice.pdf","stack":"Error: ENOENT: no such file or directory, stat 'C:\\Users\\SOFTKING\\Documents\\Node\\electronic-invoicing-system\\invoice.pdf'","status":404,"statusCode":404,"syscall":"stat"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}
+{"error":{"address":"35.170.157.208","code":"ETIMEDOUT","errno":-4039,"port":443,"syscall":"connect"},"level":"error"}
+{"error":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.cloudinary.com","syscall":"getaddrinfo"},"level":"error"}

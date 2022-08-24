@@ -26,6 +26,15 @@ function validateLogin(login) {
   return Joi.validate(login, schema)
 }
 
+function validateProduct(product) {
+  const schema = {
+    name: Joi.string().min(3).max(255).required(),
+    desc: Joi.string().max(255),
+    qty: Joi.number().required(),
+    price: Joi.number().required()
+  }
+}
+
 
 async function passwordHash(password) {
   const salt =  await bcrypt.genSalt(10)
@@ -41,5 +50,6 @@ async function matchPassword(enteredPassword, existingPassword) {
 
 module.exports.validateCustomer = validateCustomer;
 module.exports.validateLogin = validateLogin;
+module.exports.validateProduct = validateProduct;
 module.exports.passwordHash = passwordHash;
 module.exports.matchPassword = matchPassword;

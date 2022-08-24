@@ -7,7 +7,7 @@ module.exports = multer({
   storage: multer.diskStorage({}),
   fileFilter: (req, file, callback) => {
     let ext = path.extname(file.originalname);
-    if(ext !== ".jpg" && ext !== ".jpeg" && ext != ".PNG") {
+    if(ext !== ".jpg" && ext !== ".jpeg" && ext != ".PNG" && ext != ".pdf") {
       callback(new Error("Unsupported file type."), false)
       return
     }
